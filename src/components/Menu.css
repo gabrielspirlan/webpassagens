@@ -1,0 +1,21 @@
+.Menu header {
+    background-color: #3C1159;
+    padding: 15px;
+    width: 100%;
+}
+
+
+
+@media screen and (max-width: 670px) {
+    img {
+        width: 80%;
+    }
+    
+}
+
+@media screen and (max-width: 300px) {
+    img {
+        width: 80%;
+    }
+    
+}

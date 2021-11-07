@@ -1,0 +1,163 @@
+.Passagem {
+    background-color: white;
+    overflow: hidden;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border: 2px solid #5F1B8C;
+    margin: 10px auto 10px auto;
+    width: 300px;
+    height: fit-content;
+
+}
+
+
+.Titulo {
+    padding: 10px;
+    color: rgb(228, 228, 228);
+    background-color: #5F1B8C;
+    font-weight: 500;
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: -10px;
+}
+
+.Origem {
+    font-size: 20px;
+    border-bottom: 1px #333 solid;
+    font-weight: 300;
+    padding-bottom: 8px;
+}
+
+.Totais {
+    margin-top: -10px;
+
+}
+
+.pTotais {
+    margin-bottom: -20px;
+}
+
+.qTotais {
+    font-weight: 300;
+
+}
+
+.Disponiveis {
+    margin-top: -8px;
+
+}
+
+.pDisponiveis {
+    margin-bottom: -20px;
+
+}
+.qDisponiveis {
+    font-weight: 300;
+    padding-bottom: 10px;
+    border-bottom: 1px #333 solid;
+}
+
+p {
+    text-align: left;
+    font-size: 22px;
+    margin-left: 15px;
+    margin-right: 15px;
+
+}
+
+.Saida {
+    margin-top: -10px;
+
+}
+
+.pSaida{
+    margin-bottom: -18px;
+    font-size: 20px;
+}
+
+.hSaida {
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.Chegada {
+    margin-top: -6px;
+}
+.pChegada {
+    margin-bottom: -18px;
+    font-size: 20px;
+}
+
+.hChegada {
+    font-weight: 300;
+    padding-bottom: 12px;
+    border-bottom: 1px #333 solid;
+    font-size: 20px;
+}
+
+
+.Botoes {
+    text-align: center;
+    margin-top: -8px;
+    margin-bottom: 8px;
+}
+
+.Reservar {
+    color: #DDD;
+    background-color: #3C1159;
+    border: 1px #3C1159 solid;
+    font-family: 'Urbanist';
+    font-size: 22px;
+    font-weight: 600;
+    width: 130px;
+    height: 40px; 
+    border-radius: 5px;
+}
+
+.Cancelar {
+    margin-right: 5px;
+    color: #3C1159;
+    background-color: white;
+    border: 1px #3C1159 solid;
+    font-family: 'Urbanist';
+    font-size: 22px;
+    font-weight: 600;
+    width: 130px;
+    height: 40px;
+    border-radius: 5px;
+
+}
+
+.Reservar:active {
+    color: white;
+    background-color: #5F1B8C;
+    border: 1px #b459f1 solid;
+}
+
+.Cancelar:active {
+    background-color: #f1defd;
+    font-weight: 600;
+    border: 1px #5f2486 solid;
+}
+
+
+.Decolou {
+    margin-right: 5px;
+    color: white;
+    background-color: #9329D9;
+    border: none;
+    font-family: 'Urbanist';
+    font-size: 22px;
+    font-weight: 600;
+    width: 180px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+
+@media screen and (max-width: 300px) {
+    .Passagem {
+        width: 280px;
+    }
+    
+}

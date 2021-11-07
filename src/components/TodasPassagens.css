@@ -1,0 +1,24 @@
+.TodasPassagens {
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+}
+
+@media screen and (max-width: 1300px) {
+    .TodasPassagens {
+        grid-template-columns: repeat(3, 33.3%);
+    }
+    
+}
+
+@media screen and (max-width: 1000px) {
+    .TodasPassagens {
+        grid-template-columns: repeat(2, 50%);
+    }
+    
+}
+
+@media screen and (max-width: 670px) {
+    .TodasPassagens {
+        grid-template-columns: repeat(1, 100%);
+    }
+}
